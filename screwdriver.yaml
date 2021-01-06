@@ -1,10 +1,11 @@
 jobs:
   build-013-test:
+    image: node:12
     requires: [~sd@6416:test]
     steps:
       - echo "test"
   build-13-test:
+    image: node:12
     requires: [~sd@6416:test]
     steps:
      - echo "test"
-  
